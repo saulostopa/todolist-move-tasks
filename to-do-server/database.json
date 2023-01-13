@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "63c02b6946084fc59ee7a5e3"
+  },
+  "position": 1,
+  "name": "Winnie",
+  "bg": "#816288",
+  "tasks": [
+    "W-Task01",
+    "W-Task02",
+    "W-Task03",
+    "W-Task04"
+  ]
+},{
+  "_id": {
+    "$oid": "63c02bf246084fc59ee7a5e4"
+  },
+  "position": 2,
+  "name": "Brad",
+  "bg": "#309a8e",
+  "tasks": [
+    "B-Task01",
+    "B-Task02",
+    "B-Task03",
+    "B-Task04"
+  ]
+},{
+  "_id": {
+    "$oid": "63c02c5c46084fc59ee7a5e5"
+  },
+  "position": 3,
+  "name": "Bob",
+  "bg": "#2c3d4c",
+  "tasks": [
+    "Bob-Task01",
+    "Bob-Task02",
+    "Bob-Task03",
+    "Bob-Task04"
+  ]
+},{
+  "_id": {
+    "$oid": "63c02c8d46084fc59ee7a5e6"
+  },
+  "position": 4,
+  "name": "Thomas",
+  "bg": "#e56819",
+  "tasks": [
+    "T-Task01",
+    "T-Task02",
+    "T-Task03",
+    "T-Task04"
+  ]
+}]

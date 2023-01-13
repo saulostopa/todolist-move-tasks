@@ -1,21 +1,61 @@
-MIT License
+<div id="top"></div>
 
-Copyright (c) 2023 Saulo Stopa
+<br />
+<div align="center">
+  <h1 align="center">ToDo List to Move Tasks Between Users</h1>
+  <br />
+  <p align="center">
+    <img src="screenshot.gif" alt="ToDo List by Saulo Stopa" width="">
+  </p>
+  <br />
+</div>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Appointiments
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+A basic implementation of tasks to add and move tasks between users at the same postion where you are going to move that.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<br />
+
+
+# Tools of Backend
+* [NodeJS](https://nodejs.org/)
+* [cors](https://www.npmjs.com/package/cors)
+* [dotenv](https://www.npmjs.com/package/dotenv)
+* [Express](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [nodemon](https://www.npmjs.com/package/nodemon)
+
+<br />
+
+# Tools of Frontend
+* [React](https://reactjs.org/)
+* [styled-components](https://styled-components.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
+
+<br />
+
+# Instalation Backend
+```
+yarn install
+```
+```
+1. create database in your mongodb server as todolist
+2. create a users collection
+3. import database.json in your users collection
+4. set URI of your mongo database in .env file
+5. import insomnia.json to your Insomnia project to see apis call
+```
+```
+yarn dev
+```
+
+# Instalation Frontend
+```
+yarn install
+```
+```
+yarn start
+```
+
+# License
+MIT
